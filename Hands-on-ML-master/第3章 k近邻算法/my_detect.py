@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 
+import numpy as np
+
 base_dir = os.path.dirname(__file__)
 os.chdir(base_dir)
 
