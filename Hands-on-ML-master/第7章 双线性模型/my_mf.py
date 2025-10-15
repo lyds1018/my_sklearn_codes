@@ -89,7 +89,7 @@ batch_size = 64  # 批量大小
 # 读取数据
 base_dir = os.path.dirname(__file__)
 os.chdir(base_dir)
-data = np.loadtxt("movielens_100k.csv", delimiter=",", dtype=int)
+data = np.loadtxt("./movielens_100k.csv", delimiter=",", dtype=int)
 data[:, :2] = data[:, :2] - 1  # 用户ID和电影ID从0开始编号
 
 users = set()
